@@ -1,0 +1,2 @@
+include ':app', ':facerecognition'
+rootProject.name='Pepper Recognition'
