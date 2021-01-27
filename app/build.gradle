@@ -11,8 +11,8 @@ android {
         applicationId "com.softbankrobotics.pepperrecognition"
         minSdkVersion 23
         targetSdkVersion 29
-        versionCode 1000
-        versionName "1.0.0"
+        versionCode 1001
+        versionName "1.0.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField("String", "AWS_COLLECTION_ID",
                 "\"${getSecretProperty("AWS_COLLECTION_ID")}\"")
